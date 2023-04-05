@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Information</title>
+  </head>
+  <body>
+    <div>
+      <h1>Personal Details</h1>
+      <form>
+        <span>Salutation</span><br>
+        <select name="salutation" id="salutation">
+          <option value="None">None</option>
+          <option value="Hi">Hi</option>
+          <option value="Hello">Hello</option></select
+        ><br /><br>
+        First Name:
+        <input type="text" placeholder="Enter your First Name" /><br /><br />
+        Last Name:
+        <input type="text" placeholder="Enter your Last Name" /><br /><br />
+
+        <label for="gender">
+          Gender:
+          <input type="radio" value="gender" name="male" id="male" />Male
+          <input type="radio" value="gender" name="male" id="male" />Female
+          <br /><br />
+          Email: <input type="email" name="gmail" id="mail" /> <br /><br />
+          Date of Birth:
+          <input
+            type="date"
+            value="Date of birth"
+            name="DOB"
+            id="date"
+          /><br /><br />
+        </label>
+        <span>Address:</span><br>
+        <textarea
+          name="Address"
+          id="Address"
+          cols="30"
+          rows="10"
+          placeholder="Write your full address"
+        ></textarea><br>
+        <label for="submit">
+           <input type="submit">
+        </label>
+      </form>
+    </div>
+  </body>
+</html>
